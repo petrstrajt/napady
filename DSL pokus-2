@@ -1,0 +1,7 @@
+Ahoj, 
+
+rád bych si zkusil jeden malý experiment a to sice vymyslet doménově specifický jazyk, který by sloužil jako nádstavba nad Common Lispem,
+ideálně by využíval všech jeho schopností, ale zároveň by nabízel velmi jednoduchý zápis v českém jazyce. 
+
+Uvědomuji si, že mluvená řeč je vemi komplexní a mnohdy najednoznačná, takže budeme společně hledat cestu, jak popsat Common Lipový 
+kód a v co jejvětší míře se těmto úskalím vyhnout

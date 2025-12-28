@@ -1,3 +1,51 @@
 Ahoj, 
 
+rád bych se s tvou pomocí zamyslel nad problémem, který mne dlouho zajímá. Líbí se mi programovací jazyk Common Lisp. Má celou řadu 
+unikátních vlastností, které jiné jazyky nemají. Ovšem, když jsem se snažil do Common Lispu proniknout, narazil jsem na jeden problém 
+a to sice poměrně složitou formu zápisu, kterou tento jazyk používá. 
+
+A to mne přivedlo k pokusu vytvořit nějakou nádstavbu nad Common Lispem, která by mi umožnila popsat problém, který chci řešit 
+pomocí přirozené řeči a potom tento slovní popis pomocí nějaké pomocné vrstvy převést na Common Lispový kód. Takže, celé by to 
+vypadalo takto - tedy teoreticky:
+
+První vrsva Slovní popis v co nejpřirozenější řeči
+Pod touto vrstvou by byl nějaký překladač, který by ji převedl na Commmon Lipový kód
+Třetí vrstva by byl samotný Common Lispový kód
+
+Vím, že tahle myšlenka není nijak nová. To o čem přemýšlím je známé jako doménově specifický jazyk. To o čem mluvím jako o překladači 
+Také existuje říká se tomu parser. 
+
+Rovněž vím, že hlavní problém celé této myšlenky je to, že přirozená řeč je příliš komplexní a často nejednoznačná na to, aby se 
+dala vůbec převést na zdrojový kód, natož přesně. Parser, který by tohle dokázal by musel být neuvěřitelně složitý a komplexní. 
+
+Jediné řešení, které mne napadlo je k překladu z DSL, kterému sám pro sebe říkám Uhura, podle tlumočníce ze Star Treku, symbolickou
+umělou inteligenci. 
+
+Volba symbolické AI není náhodná. Pracuje s předem danými daty a výstupy tvoří na základě vztahů mezi vstupními daty. Je předvidatelná 
+a nevyžaduje tak obrovské množství dat na trénik jako jiné varianty AI.
+
+Ani použití umělé inteligence by nedokázalo odstranit problém s mnohoznačností jazyka. Takže první věc o kterou se pokusíme bude vytvořit
+výrazně zjednodušenou verzi jazyka, která by se sestávala z něčeho co je podobné klíčovým slovům.
+
+Nejlepší bude ukázat si to celé na příkladu programu ahoj světe
+
+Prvním klíčovým slovem by mohlo být slovo zapiš
+Tímto máme řečeno, že chceme něco zapsat
+
+Pak je třeba popsat co, chceme zapsat v kontextu tohoto příkladu jde o řetězec, takže máme další klíčové slovo. 
+
+Poslední věc, kterou potřebujeme říct, je to, kam se onen řetězec má zapsat,  našem jednoduchém příkladu je to standardní výstup, 
+ale jsou i jiné možnosti, např., zápis do souboru.
+
+Nyní se ti pokusím vysvětlit proč to celé dělat. Rád bych vytvořil DSL, který by programátora zbavil nutnosti přemýšlet o tom, jak 
+se jazyk zapisuje a raději mu umožnil věnovat se plně problému, který má program řešit a to je ta věc, kterou by měl můj DSL dělat.
+
+Samozřejmě, že nejsem první, koho tohle napadlo. Podobné otázky si kladl Larry Wall, když psal Perl. 
+
+Další vrstvu celého problému představují různé přístupy k programování, např. imperativní, funkcionální, objektové.
+
+Co si o tom myslíš?
+
+
+Děkuju za předchozí odpověď. 
 
